@@ -1,0 +1,23 @@
+package br.edu.udesc.business;
+
+import java.math.BigInteger;
+
+/**
+ * Implementação do super fatorial
+ * @author udesc
+ *
+ */
+public class SuperFactorial implements ISuperFatorial {
+
+    
+    public BigInteger getSuperFatorial(int numero) {
+        // TODO Auto-generated method stub
+        return null;
+    }
+    
+    protected BigInteger getFatoria( int numero ) {
+        return null;
+    }
+
+}
+

@@ -1,0 +1,5 @@
+package br.edu.udesc.exceptions;
+
+public class A {
+
+}

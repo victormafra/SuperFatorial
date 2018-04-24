@@ -1,0 +1,19 @@
+package br.edu.udesc.business;
+
+import java.math.BigInteger;
+
+/**
+ * Assinatura para o SuperFatorial
+ * @author udesc
+ *
+ */
+public interface ISuperFatorial {
+    
+    /**
+     * Recebe o fatorial do número e retorna o superfatorial dele
+     * @param numero para o qual calcularemos o superfatorial
+     * @return super fatorial
+     */
+    public BigInteger getSuperFatorial(int numero);
+
+}

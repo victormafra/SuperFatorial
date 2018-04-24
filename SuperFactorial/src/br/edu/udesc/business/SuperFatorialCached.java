@@ -1,0 +1,32 @@
+package br.edu.udesc.business;
+
+import java.math.BigInteger;
+import java.util.HashMap;
+
+/**
+ * Antes de calcular o fatorial busca no cache
+ * @author udesc
+ *
+ */
+public class SuperFatorialCached extends SuperFactorial {
+    /**
+     * Cache em memória para o super fatorial
+     */
+    private HashMap<Integer,BigInteger> cache = new HashMap();
+    
+    protected BigInteger getFatorial( int numero ) {
+        // procura no cache primeiro se existir retorna o valor
+        // se nao existir calcula e adiciona no cache
+    	if ( cache.containsKey( numero ) ) {
+    		// cache.get(numero) = valor do fatorial
+    		return cache.get(numero);
+        } else {
+        	if(numero == 1){
+        		cache.put(1, BigInteger.valueOf(1));
+        	} 
+        }
+    	cache.put(numero, BigInteger.valueOf(numero).multiply(getFatorial(numero - 1)));
+        return cache.get(numero);
+    }
+
+}

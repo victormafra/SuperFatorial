@@ -1,0 +1,31 @@
+import static org.junit.Assert.*;
+
+import java.math.BigInteger;
+
+import org.junit.Test;
+
+import br.edu.udesc.business.SuperFactorial;
+import br.edu.udesc.exceptions.InputException;
+
+
+public class SuperFatorialTest {
+
+	bi1 = new BigInteger("123");
+    bi2 = new BigInteger("123");
+    
+    bi1.equals(bi2);
+	@Test
+	public void testShouldReturnOne() {
+		SuperFactorial fact = new SuperFactorial();
+		try {
+			BigInteger i = fact.getSuperFatorial(1);
+			BigInteger.equals(i);	
+			BigInteger.equals(BigInteger.valueOf(3));
+			assert(assertTrue("Retornou 1", i.equals(BigInteger.valueOf("1")));
+		} catch (InputException e) {
+			fail("Deveria retornar 1 e retornou uma exceção.");
+		}
+		
+	}
+
+}
