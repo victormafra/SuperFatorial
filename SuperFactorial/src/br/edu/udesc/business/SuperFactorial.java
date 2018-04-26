@@ -23,7 +23,13 @@ public class SuperFactorial implements ISuperFatorial {
             throw new NegativeValueEnteredException();
         
         // TODO Auto-generated method stub
-        return getFatorial(numero);
+        //return getFatorial(numero);
+        
+        if(numero == 1){
+        	return BigInteger.valueOf(1);
+        }
+        
+    	return  getFatorial(numero).multiply(getSuperFatorial(numero - 1));
     }
     
 
