@@ -11,7 +11,7 @@ import br.edu.udesc.exceptions.ZeroEnteredException;
  * @author udesc
  *
  */
-public class SuperFatorialCached extends SuperFatorial {
+public class SuperFatorialCachedDisc extends SuperFatorial {
 	
     /**
      * Cache em memória para o super fatorial

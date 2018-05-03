@@ -11,7 +11,7 @@ import br.edu.udesc.exceptions.ZeroEnteredException;
  * @author udesc
  *
  */
-public class SuperFactorial implements ISuperFatorial {
+public class SuperFatorial implements ISuperFatorial {
 
     /**
      * 
