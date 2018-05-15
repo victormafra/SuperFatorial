@@ -1,7 +1,6 @@
 package br.edu.udesc.business;
 
 import java.math.BigInteger;
-import java.util.HashMap;
 
 import br.edu.udesc.exceptions.NegativeValueEnteredException;
 import br.edu.udesc.exceptions.ZeroEnteredException;
