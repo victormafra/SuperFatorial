@@ -19,6 +19,7 @@ public class SuperFatorialCached extends SuperFatorial {
 	private HashMap<Integer,BigInteger> cache = new HashMap<Integer, BigInteger>();
 	private HashMap<Integer,BigInteger> superCache = new HashMap<Integer, BigInteger>();
     
+        @Override
     public BigInteger getSuperFatorial( int numero ) throws ZeroEnteredException, NegativeValueEnteredException {
 
     	if( numero == 0 ) 
@@ -40,6 +41,7 @@ public class SuperFatorialCached extends SuperFatorial {
     	return superCache.get(numero);
     }
     
+        @Override
     protected BigInteger getFatorial( int numero ) {
         // procura no cache primeiro se existir retorna o valor
         // se nao existir calcula e adiciona no cache

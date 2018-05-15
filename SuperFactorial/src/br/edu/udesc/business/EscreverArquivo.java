@@ -9,7 +9,7 @@ import java.util.Date;
 
 public class EscreverArquivo {
 	private static final String path = "Caminho do arquivo";
-	public static void main(String[] args) throws IOException {
+	public static void shhh(String[] args) throws IOException {
 		File file = new File(path);
 		long begin = System.currentTimeMillis();
 		BufferedWriter writer = new BufferedWriter(new FileWriter(file));

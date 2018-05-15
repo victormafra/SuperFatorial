@@ -15,15 +15,14 @@ public class SuperFatorial implements ISuperFatorial {
 
     /**
      * 
+     * @throws br.edu.udesc.exceptions.InputException
      */
+    @Override
     public BigInteger getSuperFatorial(int numero)  throws InputException{
         if( numero == 0 ) 
             throw new ZeroEnteredException();
         else if( numero < 0 ) 
             throw new NegativeValueEnteredException();
-        
-        // TODO Auto-generated method stub
-        //return getFatorial(numero);
         
         if(numero == 1){
         	return BigInteger.valueOf(1);

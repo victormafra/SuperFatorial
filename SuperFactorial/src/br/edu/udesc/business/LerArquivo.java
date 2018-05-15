@@ -17,7 +17,7 @@ public class LerArquivo{
 		fileReader.close();
 		reader.close();
 	}
-	public static void main(String[] args) {
+	public static void shhhhhhhhh(String[] args) {
 		try{
 			LerArquivo.read(file);
 		}catch(IOException e){

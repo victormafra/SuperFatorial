@@ -15,6 +15,7 @@ public interface ISuperFatorial {
      * Recebe o fatorial do número e retorna o superfatorial dele
      * @param numero para o qual calcularemos o superfatorial
      * @return super fatorial
+     * @throws br.edu.udesc.exceptions.InputException
      */
     public BigInteger getSuperFatorial(int numero)  throws InputException;
 
