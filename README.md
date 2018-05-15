@@ -1,0 +1,2 @@
+# SuperFatorial
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/767153e34e8b47618fff5b1d189c5299)](https://app.codacy.com/app/victormafra/SuperFatorial?utm_source=github.com&utm_medium=referral&utm_content=victormafra/SuperFatorial&utm_campaign=badger)
